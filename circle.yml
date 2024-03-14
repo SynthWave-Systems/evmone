@@ -460,8 +460,8 @@ jobs:
     steps:
       - build
       - build_silkworm:
-          branch: evmc-v11.0.0-alpha.1
-          commit: evmc-v11.0.0-alpha.1
+          branch: evmone-evmc12
+          commit: evmone-evmc12
       - download_execution_tests:
           # TODO: Fix failures and upgrade to v13.1
           rev: v13
